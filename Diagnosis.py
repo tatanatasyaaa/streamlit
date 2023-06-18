@@ -8,7 +8,7 @@ st.set_page_config(page_title='Diagnosis ISPA', layout='wide')
 def run():
     @st.cache_data
     def load_data():
-        data = pd.read_excel('pages/ispabaru_normalized2.xlsx')
+        data = pd.read_excel('ispabaru_normalized2.xlsx')
         return data
 
     # Title
